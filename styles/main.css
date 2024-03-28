@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{font-family : PT Serif;}
+
+a{
+    text-decoration-style:solid;
+    font-size:x-large;
+    font-family:'Times New Roman';
+    font-style:italic;
+    text-decoration-thickness:auto ;
+    color:darkblue !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color :black !important;
+    text-decoration:double;
+    font-style: italic;
+}
+
+ul{list-style-type:none;}
+
+hr {
+    margin-top:  0px;
+    margin-bottom: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content:left; /* Center horizontally */
+    align-items:start; /* Center vertically */
+}
+
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
